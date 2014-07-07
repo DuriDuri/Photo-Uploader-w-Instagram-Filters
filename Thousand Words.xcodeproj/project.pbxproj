@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		686329F41969338E00355324 /* VONPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 686329F31969338E00355324 /* VONPhotoCollectionViewCell.m */; };
+		686329F6196936D500355324 /* astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 686329F5196936D500355324 /* astronaut.jpg */; };
+		686329F9196A454E00355324 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 686329F8196A454E00355324 /* Photo.m */; };
+		686329FC196A454F00355324 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 686329FB196A454F00355324 /* Album.m */; };
+		68632A00196A469000355324 /* VONPictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 686329FF196A469000355324 /* VONPictureDataTransformer.m */; };
+		68632A03196A840E00355324 /* VONPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68632A02196A840E00355324 /* VONPhotoDetailViewController.m */; };
 		68C472EA1968B7D7000BA0A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C472E91968B7D7000BA0A2 /* Foundation.framework */; };
 		68C472EC1968B7D7000BA0A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C472EB1968B7D7000BA0A2 /* CoreGraphics.framework */; };
 		68C472EE1968B7D7000BA0A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C472ED1968B7D7000BA0A2 /* UIKit.framework */; };
@@ -22,6 +28,10 @@
 		68C4730B1968B7D8000BA0A2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C472EF1968B7D7000BA0A2 /* CoreData.framework */; };
 		68C473131968B7D8000BA0A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68C473111968B7D8000BA0A2 /* InfoPlist.strings */; };
 		68C473151968B7D8000BA0A2 /* Thousand_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C473141968B7D8000BA0A2 /* Thousand_WordsTests.m */; };
+		68C4731F1968B82F000BA0A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C4731E1968B82F000BA0A2 /* Main.storyboard */; };
+		68C473221968B8AC000BA0A2 /* VONAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C473211968B8AC000BA0A2 /* VONAlbumTableViewController.m */; };
+		68C473281968F74A000BA0A2 /* VONCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C473271968F74A000BA0A2 /* VONCoreDataHelper.m */; };
+		68C4732B1968FB99000BA0A2 /* VONPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C4732A1968FB99000BA0A2 /* VONPhotosCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		686329F21969338E00355324 /* VONPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		686329F31969338E00355324 /* VONPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		686329F5196936D500355324 /* astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astronaut.jpg; sourceTree = "<group>"; };
+		686329F7196A454E00355324 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		686329F8196A454E00355324 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		686329FA196A454F00355324 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		686329FB196A454F00355324 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		686329FE196A469000355324 /* VONPictureDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONPictureDataTransformer.h; sourceTree = "<group>"; };
+		686329FF196A469000355324 /* VONPictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONPictureDataTransformer.m; sourceTree = "<group>"; };
+		68632A01196A840E00355324 /* VONPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONPhotoDetailViewController.h; sourceTree = "<group>"; };
+		68632A02196A840E00355324 /* VONPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONPhotoDetailViewController.m; sourceTree = "<group>"; };
 		68C472E61968B7D7000BA0A2 /* Thousand Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thousand Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C472E91968B7D7000BA0A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68C472EB1968B7D7000BA0A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +74,13 @@
 		68C473101968B7D8000BA0A2 /* Thousand WordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thousand WordsTests-Info.plist"; sourceTree = "<group>"; };
 		68C473121968B7D8000BA0A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68C473141968B7D8000BA0A2 /* Thousand_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thousand_WordsTests.m; sourceTree = "<group>"; };
+		68C4731E1968B82F000BA0A2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		68C473201968B8AC000BA0A2 /* VONAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONAlbumTableViewController.h; sourceTree = "<group>"; };
+		68C473211968B8AC000BA0A2 /* VONAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONAlbumTableViewController.m; sourceTree = "<group>"; };
+		68C473261968F74A000BA0A2 /* VONCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONCoreDataHelper.h; sourceTree = "<group>"; };
+		68C473271968F74A000BA0A2 /* VONCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONCoreDataHelper.m; sourceTree = "<group>"; };
+		68C473291968FB99000BA0A2 /* VONPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		68C4732A1968FB99000BA0A2 /* VONPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONPhotosCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +109,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		686329FD196A45A500355324 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				68C472FD1968B7D8000BA0A2 /* Thousand_Words.xcdatamodeld */,
+				686329FA196A454F00355324 /* Album.h */,
+				686329FB196A454F00355324 /* Album.m */,
+				686329F7196A454E00355324 /* Photo.h */,
+				686329F8196A454E00355324 /* Photo.m */,
+				686329FE196A469000355324 /* VONPictureDataTransformer.h */,
+				686329FF196A469000355324 /* VONPictureDataTransformer.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		68C472DD1968B7D7000BA0A2 = {
 			isa = PBXGroup;
 			children = (
@@ -115,10 +157,19 @@
 		68C472F11968B7D7000BA0A2 /* Thousand Words */ = {
 			isa = PBXGroup;
 			children = (
-				68C472FA1968B7D7000BA0A2 /* VONAppDelegate.h */,
-				68C472FB1968B7D8000BA0A2 /* VONAppDelegate.m */,
+				68C4731E1968B82F000BA0A2 /* Main.storyboard */,
+				68C473201968B8AC000BA0A2 /* VONAlbumTableViewController.h */,
+				68C473211968B8AC000BA0A2 /* VONAlbumTableViewController.m */,
+				68C473291968FB99000BA0A2 /* VONPhotosCollectionViewController.h */,
+				68C4732A1968FB99000BA0A2 /* VONPhotosCollectionViewController.m */,
+				68632A01196A840E00355324 /* VONPhotoDetailViewController.h */,
+				68632A02196A840E00355324 /* VONPhotoDetailViewController.m */,
+				686329F21969338E00355324 /* VONPhotoCollectionViewCell.h */,
+				686329F31969338E00355324 /* VONPhotoCollectionViewCell.m */,
+				68C473261968F74A000BA0A2 /* VONCoreDataHelper.h */,
+				68C473271968F74A000BA0A2 /* VONCoreDataHelper.m */,
 				68C473001968B7D8000BA0A2 /* Images.xcassets */,
-				68C472FD1968B7D8000BA0A2 /* Thousand_Words.xcdatamodeld */,
+				686329FD196A45A500355324 /* CoreData */,
 				68C472F21968B7D7000BA0A2 /* Supporting Files */,
 			);
 			path = "Thousand Words";
@@ -127,6 +178,9 @@
 		68C472F21968B7D7000BA0A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				686329F5196936D500355324 /* astronaut.jpg */,
+				68C472FA1968B7D7000BA0A2 /* VONAppDelegate.h */,
+				68C472FB1968B7D8000BA0A2 /* VONAppDelegate.m */,
 				68C472F31968B7D7000BA0A2 /* Thousand Words-Info.plist */,
 				68C472F41968B7D7000BA0A2 /* InfoPlist.strings */,
 				68C472F71968B7D7000BA0A2 /* main.m */,
@@ -229,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C4731F1968B82F000BA0A2 /* Main.storyboard in Resources */,
+				686329F6196936D500355324 /* astronaut.jpg in Resources */,
 				68C472F61968B7D7000BA0A2 /* InfoPlist.strings in Resources */,
 				68C473011968B7D8000BA0A2 /* Images.xcassets in Resources */,
 			);
@@ -249,9 +305,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68632A03196A840E00355324 /* VONPhotoDetailViewController.m in Sources */,
+				68C4732B1968FB99000BA0A2 /* VONPhotosCollectionViewController.m in Sources */,
+				68C473281968F74A000BA0A2 /* VONCoreDataHelper.m in Sources */,
 				68C472FC1968B7D8000BA0A2 /* VONAppDelegate.m in Sources */,
+				686329F9196A454E00355324 /* Photo.m in Sources */,
+				686329F41969338E00355324 /* VONPhotoCollectionViewCell.m in Sources */,
 				68C472F81968B7D7000BA0A2 /* main.m in Sources */,
+				686329FC196A454F00355324 /* Album.m in Sources */,
 				68C472FF1968B7D8000BA0A2 /* Thousand_Words.xcdatamodeld in Sources */,
+				68632A00196A469000355324 /* VONPictureDataTransformer.m in Sources */,
+				68C473221968B8AC000BA0A2 /* VONAlbumTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +512,7 @@
 				68C4731A1968B7D8000BA0A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68C4731B1968B7D8000BA0A2 /* Build configuration list for PBXNativeTarget "Thousand WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +521,7 @@
 				68C4731D1968B7D8000BA0A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
