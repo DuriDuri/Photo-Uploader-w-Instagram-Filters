@@ -13,6 +13,7 @@
 		686329FC196A454F00355324 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 686329FB196A454F00355324 /* Album.m */; };
 		68632A00196A469000355324 /* VONPictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 686329FF196A469000355324 /* VONPictureDataTransformer.m */; };
 		68632A03196A840E00355324 /* VONPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68632A02196A840E00355324 /* VONPhotoDetailViewController.m */; };
+		68632A06196A910100355324 /* VONFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68632A05196A910100355324 /* VONFiltersViewController.m */; };
 		68C472EA1968B7D7000BA0A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C472E91968B7D7000BA0A2 /* Foundation.framework */; };
 		68C472EC1968B7D7000BA0A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C472EB1968B7D7000BA0A2 /* CoreGraphics.framework */; };
 		68C472EE1968B7D7000BA0A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C472ED1968B7D7000BA0A2 /* UIKit.framework */; };
@@ -56,6 +57,8 @@
 		686329FF196A469000355324 /* VONPictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONPictureDataTransformer.m; sourceTree = "<group>"; };
 		68632A01196A840E00355324 /* VONPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONPhotoDetailViewController.h; sourceTree = "<group>"; };
 		68632A02196A840E00355324 /* VONPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONPhotoDetailViewController.m; sourceTree = "<group>"; };
+		68632A04196A910100355324 /* VONFiltersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONFiltersViewController.h; sourceTree = "<group>"; };
+		68632A05196A910100355324 /* VONFiltersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONFiltersViewController.m; sourceTree = "<group>"; };
 		68C472E61968B7D7000BA0A2 /* Thousand Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thousand Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C472E91968B7D7000BA0A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68C472EB1968B7D7000BA0A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -164,6 +167,8 @@
 				68C4732A1968FB99000BA0A2 /* VONPhotosCollectionViewController.m */,
 				68632A01196A840E00355324 /* VONPhotoDetailViewController.h */,
 				68632A02196A840E00355324 /* VONPhotoDetailViewController.m */,
+				68632A04196A910100355324 /* VONFiltersViewController.h */,
+				68632A05196A910100355324 /* VONFiltersViewController.m */,
 				686329F21969338E00355324 /* VONPhotoCollectionViewCell.h */,
 				686329F31969338E00355324 /* VONPhotoCollectionViewCell.m */,
 				68C473261968F74A000BA0A2 /* VONCoreDataHelper.h */,
@@ -309,6 +314,7 @@
 				68C4732B1968FB99000BA0A2 /* VONPhotosCollectionViewController.m in Sources */,
 				68C473281968F74A000BA0A2 /* VONCoreDataHelper.m in Sources */,
 				68C472FC1968B7D8000BA0A2 /* VONAppDelegate.m in Sources */,
+				68632A06196A910100355324 /* VONFiltersViewController.m in Sources */,
 				686329F9196A454E00355324 /* Photo.m in Sources */,
 				686329F41969338E00355324 /* VONPhotoCollectionViewCell.m in Sources */,
 				68C472F81968B7D7000BA0A2 /* main.m in Sources */,

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Photo;
+
 
 @interface VONFiltersViewController : UICollectionViewController
+
+
+@property (strong, nonatomic) Photo *photo;
 
 @end
